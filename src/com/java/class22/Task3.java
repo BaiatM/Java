@@ -17,5 +17,6 @@ public class Task3 {
         }
     }
 }
+//added a comment
 
 //Write a program to find all duplicates number from the array
