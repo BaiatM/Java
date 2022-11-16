@@ -8,6 +8,10 @@ public class HeadPhones {
     double price;
     int volume;
 
+    HeadPhones(){
+        System.out.println("Hello");
+    }
+
     void volumeUp(int num){
             volume=volume+num;
             System.out.println("The volume is at "+ volume);
