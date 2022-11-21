@@ -14,4 +14,18 @@ public class Task3 {
         }
     }
 }
-
+ /*   int count;
+    int data[] = {5, 2, 8, 7, 3, 6};
+        for (int i = 0; i < data.length; i++) {
+        for (int j = i + 1; j < data.length; j++) {
+        if (data[j] < data[i]) {
+        count = data[i];
+        data[i] = data[j];
+        data[j] = count;
+        }
+        }
+        }
+        for (int a : data) {
+        System.out.println(a);
+        }
+*/

@@ -8,8 +8,17 @@ public class HeadPhones {
     double price;
     int volume;
 
-    HeadPhones(){
-        System.out.println("Hello");
+    HeadPhones(String brandName, int versionNumber){
+        brand = brandName;
+        version = versionNumber;
+    }
+
+    HeadPhones(double priceAmount){
+        price=priceAmount;
+    }
+
+    HeadPhones(String colorChoice){
+        color = colorChoice;
     }
 
     void volumeUp(int num){
