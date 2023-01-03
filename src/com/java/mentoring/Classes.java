@@ -47,6 +47,20 @@ class Classes {
         Classes s1 = new Classes();//creating an object of Student
         System.out.println(s1.id);
         System.out.println(s1.name);
+
+        for(int i=0;i<3;i++){
+            for(int j =1;j<4;j++){
+                i = i%j;
+                System.out.println(j);
+            }
+
+        }
+        int a=10;
+        double d=a;
+        d=a+10;
+        a=(int)d+a;
+
+
     }
 
 }
