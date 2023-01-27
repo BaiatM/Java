@@ -59,10 +59,3 @@ public class Practice2 {
         return answer;
     }
 }
-
-//for(int i =0; i<s.length();i++){
-//            if(s.charAt(i)<s.charAt(i+1)){
-//                s.charAt(i+1)-s.charAt(i);
-//            }
-//                result = result+ s.charAt(i);
-//            }
