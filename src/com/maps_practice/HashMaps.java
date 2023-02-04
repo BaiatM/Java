@@ -12,6 +12,8 @@ public class HashMaps {
         // it may have one null key and multiple null values
         // it maintains no order
         // HashMap is non-synchronized
+        // concurrent modification exception -- Fail - Fast condition
+
 
         HashMap<Integer, String> hm = new HashMap<Integer, String>();
         hm.put(1,"Selenium");

@@ -9,7 +9,7 @@ public class Task1 {
     }
 
     static double fahrenheitConversion(double a) {
-         System.out.println(a * 9 / 5 + 32);
+        System.out.println(a * 9 / 5 + 32);
         return a;
     }
 }

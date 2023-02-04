@@ -1,6 +1,6 @@
 package com.java.LeetCode;
 import java.util.*;
-public class Paranthesis {
+public class Parenthesis {
     public static void main(String[] args) {
         System.out.println("Parenthesis example");
         System.out.println(isValid("(){[]"));
