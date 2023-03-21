@@ -8,26 +8,36 @@ public class InterviewPrep {
     public static void main(String[] args) {
         //Reverse Words of String
         // This is Java Programs -> Programs Java is This
-        String str = "This is Java Programs";
-        String [] arr = str.split(" ");
-        System.out.println(str);
-        for(int i = arr.length;i>0;i--){
-            System.out.print(arr[i-1]+" ");
-        }
+        String str = "London is capital of Great Britain";
+        System.out.println("Example1 output: "+example1(str));
 
         //Compress String
         // aabbbccccd -> a2b3c4d1
-        String exp = "aabbbccccd";
-        HashMap<Character,Integer> set = new HashMap<>();
+        String exp = "asdfffddssaasaasasdf";
+        System.out.println("\nExample2 output: "+example2(exp));
+
+    }
+
+    public static HashMap<Character,Integer> example2 (String str){
+        HashMap<Character,Integer> map = new HashMap<>();
         int count = 1;
-        for(int i=0;i<exp.length();i++){
-            Character c = exp.charAt(i);
-            if(!set.containsKey(c)){
-                set.put(c,count);
+        for(int i=0;i<str.length();i++){
+            Character c = str.charAt(i);
+            if(!map.containsKey(c)){
+                map.put(c,count);
             }else{
-                set.put(c,set.get(c)+1);
+                map.put(c,map.get(c)+1);
             }
         }
-        System.out.println("\n"+set);
+        return map;
+    }
+
+    public static String example1 (String str){
+        String [] arr = str.split(" ");
+        String reversed="";
+        for(int i = arr.length;i>0;i--){
+            reversed=reversed+arr[i-1]+" ";
+        }
+        return reversed;
     }
 }
