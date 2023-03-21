@@ -3,7 +3,7 @@ package com.java.class05;
 public class RecapExpressions {
 
 
-    public class RecapExpression {
+    public static class RecapExpression {
         public static void main(String[] args) {
             System.out.println(12 * 2 / 6 * (2 + 6 / 10) - 20 * (3 - 8));
             System.out.println(12 / 24.0 * 6 + 4);
